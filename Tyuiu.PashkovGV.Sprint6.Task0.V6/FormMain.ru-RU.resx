@@ -121,26 +121,13 @@
   <data name="textBox1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 12pt</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="textBox1.Multiline" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>52, 28</value>
+    <value>52, 29</value>
   </data>
   <data name="textBox1.Text" xml:space="preserve">
     <value>X = 3</value>
   </data>
   <data name="Accept.Text" xml:space="preserve">
     <value>Accept</value>
-  </data>
-  <data name="Res.Location" type="System.Drawing.Point, System.Drawing">
-    <value>518, 391</value>
-  </data>
-  <data name="Res.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
-  </data>
-  <data name="Res.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
   </data>
 </root>

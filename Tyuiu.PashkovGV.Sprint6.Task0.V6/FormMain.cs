@@ -3,7 +3,7 @@ namespace Tyuiu.PashkovGV.Sprint6.Task0.V6
 {
     public partial class FormMain : Form
     {
-        DataService ds = new DataService();
+        
         public FormMain()
         {
             InitializeComponent();
@@ -26,6 +26,7 @@ namespace Tyuiu.PashkovGV.Sprint6.Task0.V6
         int x = 3;
         private void Accept_Click(object sender, EventArgs e)
         {
+            DataService ds = new DataService();
             Res.Text = Math.Round((ds.Calculate(x)),3).ToString();
         }
     }
