@@ -5,7 +5,7 @@ namespace Tyuiu.PashkovGV.Sprint6.Task0.V6.Lib
     {
         public double Calculate(int x)
         {
-            double y = x/(Math.Sqrt((Math.Pow(x,2)+x)));
+            double y = Math.Round(x/(Math.Sqrt((Math.Pow(x,2)+x))),2);
             return y;
         }
     }
