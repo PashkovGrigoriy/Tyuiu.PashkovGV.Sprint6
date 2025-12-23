@@ -60,7 +60,7 @@ namespace Tyuiu.PashkovGV.Sprint6.Task4.V16
 
             double[] valueArray;
             valueArray = new double[len];
-            string str = "";
+            
             valueArray = ds.GetMassFunction(startStep, stopStep);
 
             string r = Path.GetTempPath();
