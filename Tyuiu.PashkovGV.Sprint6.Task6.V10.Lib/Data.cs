@@ -7,7 +7,7 @@ namespace Tyuiu.PashkovGV.Sprint6.Task6.V10.Lib
         {
             string content = File.ReadAllText(path);
             var words = content.Split(new[] { ' ', '\n', '\r', '\t' }, StringSplitOptions.RemoveEmptyEntries);
-            var resultWords = words.Where(word => word.Contains('w') || word.Contains('W'));
+            var resultWords = words.Where(word => word.Contains('w'));
             return string.Join(" ", resultWords);
         }
     }
